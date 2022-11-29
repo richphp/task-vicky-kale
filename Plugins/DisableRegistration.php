@@ -28,8 +28,6 @@ class DisableRegistration{
         }else{
             return true;
         }
-
-        return $result;
     }
 }
 
