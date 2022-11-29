@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceContainer name="customer.login.container">
+
+        <block name="disable_customer_notification"
+                ifconfig="customer/create_account/disable_customer_registration" 
+                template="CustomModule_midTermExercise::custom/msg.phtml"
+                >
+        </block>
+
+    </referenceContainer>
+</page>
